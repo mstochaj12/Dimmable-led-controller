@@ -31,7 +31,7 @@ void loop() {
   potValue = analogRead(potentiometerPin);
   brightness = map(potValue, 0, 1023, 0, 255);
 
-  // Detect button press (tansition from HIGH to LOW)
+  // Detect button press (transition from HIGH to LOW)
   buttonState = digitalRead(buttonPin);
   if (previousButtonState == HIGH && buttonState == LOW) {
   ledEnabled = !ledEnabled;       // Toggle LED state
