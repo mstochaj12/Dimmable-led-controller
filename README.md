@@ -62,6 +62,7 @@ This project demonstrates basic usage of digital and analog inputs/outputs in Ar
 
 ## Code
 
+```cpp
 // Pin configuration
 int whiteLedPin = 3;
 int blueLedPin = 5;
@@ -131,4 +132,4 @@ void loop() {
     }
   }
 }
-
+```
